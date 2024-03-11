@@ -35,7 +35,7 @@ gulp.task("php", function () {
     .src(paths.php)
     .pipe(
       inject(sources, {
-        ignorePath: "/opt/lampp/htdocs",
+        relative: true,
       })
     )
     .pipe(gulp.dest(paths.dist));
