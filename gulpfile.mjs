@@ -19,9 +19,9 @@ const paths = {
   scss: "src/scss/**/*.scss",
   js: "src/js/**/*.js",
   images: "src/images/**/*",
-  dist: "/opt/lampp/htdocs",
-  distCSS: "/opt/lampp/htdocs/css",
-  distJS: "/opt/lampp/htdocs/js",
+  dist: "../",
+  distCSS: "../css",
+  distJS: "../js",
 };
 
 // Copiar e injetar CSS/JS em arquivos PHP
